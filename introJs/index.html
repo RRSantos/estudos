@@ -15,7 +15,7 @@
 			
 			<div class="row">
 				<div class="col-md-3">
-					<div class="h3" data-intro="Header da coluna" data-step="2">Header coluna</div>
+					<div class="h3" data-intro="Header da <i>coluna</i>" data-step="2">Header coluna</div>
 					<div class="text">
 						lorem ipsum bla bla bla bla bla2
 						lorem ipsum bla bla bla bla bla2
@@ -61,7 +61,7 @@
 			</div>
 			<div class="row">
 				<div class="modal-footer">
-					<button class="btn btn-large btn-primary" data-intro="Clique aqui para continuar!" data-step="3">Quero continuar !</button>
+					<button class="btn btn-large btn-primary" data-intro="Clique <u>aqui</u> para continuar!" data-step="3">Quero continuar !</button>
 				</div>
 			</div>
 		</div>
@@ -72,3 +72,11 @@
 <script type="text/javascript">
 introJs().setOptions({nextLabel:'Avançar &rarr;', prevLabel:'&larr; Voltar', skipLabel:'Pular', doneLabel:'Terminar'}).start();
 </script>
+<style>
+.introjs-helperNumberLayer{
+	/*fix to work properly with bootstrap 3.1.1*/
+	box-sizing:content-box;
+	moz-box-sizing:content-box;
+
+}
+</style>
