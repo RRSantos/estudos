@@ -1,0 +1,10 @@
+{
+  "name": "estudoIntroJs",
+  "version": "0.0.1",
+  "main": ["index.html" ],
+  "description":"My first test using introJs",
+  "dependencies": {
+    "bootstrap": ">= 3.1.1",
+	"intro.js":">= 0.8.0"
+  }
+}
